@@ -740,3 +740,7 @@
 #############################
 # Pocket judge
 /sys/kernel/pocket_judge(/.*)?	u:object_r:pocket_judge_sysfs:s0
+
+# Themed bootanimation
+/system/bin/misc_writer                           u:object_r:misc_writer_exec:s0
+/system/bin/themed_bootanimation                  u:object_r:misc_writer_exec:s0
